@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf8f1">
+  <meta name="description" content="SANA FORGE — превращаем реальные бизнес-задачи в студенческие AI Challenges">
+  <title>SANA FORGE</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.88em' font-size='88'>◇</text></svg>">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="ambient-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="brand" type="button" data-path="/" aria-label="SANA FORGE — главная">
+        <span class="brand-mark" aria-hidden="true"><i></i></span>
+        <span class="brand-copy"><strong>SANA <em>FORGE</em></strong><small>by AI Sana</small></span>
+      </button>
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <button type="button" data-path="/">Главная</button>
+        <button type="button" data-path="/catalog">Каталог задач</button>
+        <button type="button" data-path="/business/new">Для бизнеса</button>
+        <button type="button" data-path="/student">Для студентов</button>
+        <button type="button" data-path="/teams">Команды</button>
+      </nav>
+      <div class="language-switch" aria-label="Текущий язык"><span>◎</span> RU⌄</div>
+      <div class="role-switch" aria-label="Выбор роли">
+        <button type="button" data-role="business">Бизнес</button>
+        <button type="button" data-role="team">Команда</button>
+      </div>
+      <div class="account-chip" aria-label="Демо профиль"><span>B</span><div><strong>AstanaTech</strong><small>demo</small></div></div>
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mobile-menu" hidden>
+      <button type="button" data-path="/">Главная</button>
+      <button type="button" data-path="/catalog">Каталог задач</button>
+      <button type="button" data-path="/business/new">Для бизнеса</button>
+      <button type="button" data-path="/student">Для студентов</button>
+      <button type="button" data-path="/teams">Команды</button>
+      <button type="button" data-path="/business/dashboard">Кабинет бизнеса</button>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><span class="footer-glyph">⌃</span><strong>SANA <em>FORGE</em></strong></div>
+    <p>Больше, чем образование. Реальные решения.</p>
+    <span>МНВО — AI Sana</span>
+  </footer>
+
+  <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# Python / local runtime
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/
+
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
